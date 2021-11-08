@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .refresh_button {
+            position: absolute;
+            width: 100px;
+            height: 50px;
+            left: 50%;
+            margin-left: -50px;
+            top: 50px; 
+            font-size: 20px;
+        }
+
+        .main {
+            position: absolute;
+            width: 650px;
+            height: 650px;
+            left: 50%;
+            top: 150px;
+            margin-left: -325px;
+            background: whitesmoke;
+            border: 2px solid lightslategray;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(4, 150px);
+            grid-gap: 10px;
+            padding: 10px;
+        }
+
+        .ring {
+            position: relative;
+            width: 150px;
+            height: 150px;
+            background: gainsboro;
+            border-radius: 100%;
+        }
+
+        .label {
+            position: absolute;
+            width: 100px;
+            height: 50px;
+            left: 50%;
+            margin-left: -50px;
+            top: 115px;
+            font-size: 20px;
+        }
+
+    </style>
+
+    <title>Pilot Brothers</title>
+<body>
+    <button class = "refresh_button">Refresh</button>
+    <label class = "label"></label>
+    <div class = "main">
+        <div class = "container">
+            <div class = "ring ring_1"></div>
+            <div class = "ring ring_2"></div>
+            <div class = "ring ring_3"></div>
+            <div class = "ring ring_4"></div>
+            <div class = "ring ring_5"></div>
+            <div class = "ring ring_6"></div>
+            <div class = "ring ring_7"></div>
+            <div class = "ring ring_8"></div>
+            <div class = "ring ring_9"></div>
+            <div class = "ring ring_10"></div>
+            <div class = "ring ring_11"></div>
+            <div class = "ring ring_12"></div>
+            <div class = "ring ring_13"></div>
+            <div class = "ring ring_14"></div>
+            <div class = "ring ring_15"></div>
+            <div class = "ring ring_16"></div>
+        </div>
+    </div>
+</body>
+<script src = "script.js"></script>
+</head>
+</html>
